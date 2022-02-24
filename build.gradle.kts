@@ -1,3 +1,6 @@
+buildscript {
+    extra["kotlin_plugin_id"] = "io.github.staakk.wrapwith"
+}
 
 plugins {
     kotlin("jvm") version "1.6.0" apply false
@@ -5,8 +8,8 @@ plugins {
 }
 
 allprojects {
-    group = "io.github.staakk"
-    version = "1.0-SNAPSHOT"
+    group = "io.github.staakk.wrapwith"
+    version = "0.1.0"
 }
 
 subprojects {
